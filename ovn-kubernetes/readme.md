@@ -1,8 +1,5 @@
 # ovn-kubernetes
 
-
-
-
 ![image](https://user-images.githubusercontent.com/10542832/85043578-1789d400-b1bf-11ea-9565-3ad9dab19b5b.png)
 
 # Prerequsite
@@ -189,3 +186,28 @@ ovs-appctl -t /var/run/ovn/ovnsb_db.ctl cluster/status OVN_Southbound
 ## Flows
 ![image](https://user-images.githubusercontent.com/10542832/83830863-ba027b80-a718-11ea-9d5a-80e9a6ae79bd.png)
 ![image](https://camo.githubusercontent.com/8751ce69e94ca6310a2179bf9b62190abb998933/68747470733a2f2f692e696d6775722e636f6d2f6937736369394f2e706e67)
+
+
+## Related Works
+
+you can refer to materials from:
+- https://github.com/openshift/ovn-kubernetes
+    - there're plenty of docs there : https://github.com/openshift/ovn-kubernetes/tree/master/docs
+
+- https://github.com/openshift/cluster-network-operator
+
+- https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/13/html/networking_with_open_virtual_network/open_virtual_network_ovn
+
+- (Japanes) https://rheb.hatenablog.com/entry/openshift42ovn#fnref:5
+
+- https://issues.redhat.com/browse/SDN-821
+
+- http://docs.openvswitch.org/en/latest/topics/datapath/
+
+- http://docs.openvswitch.org/en/latest/faq/design/
+
+- https://www.sdxcentral.com/networking/sdn/
+
+- (Chinese) https://feisky.gitbooks.io/sdn/ovs/ovn.html
+
+- (Chinese) https://www.jianshu.com/p/d72207486e29
