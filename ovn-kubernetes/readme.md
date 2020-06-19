@@ -52,7 +52,7 @@
 ## Intallation
 - You can **only change the configuration** for your Pod network provider **during cluster installation**.
 
-- [configuration](https://docs.openshift.com/container-platform/4.3/networking/cluster-network-operator.html#nw-operator-configuration-parameters-for-ovn-sdn_cluster-network-operator)
+- [IPI configuration](https://docs.openshift.com/container-platform/4.3/networking/cluster-network-operator.html#nw-operator-configuration-parameters-for-ovn-sdn_cluster-network-operator)
     ```
     -- output omitted -- 
     defaultNetwork:
@@ -69,7 +69,6 @@
     - **UDP port** for the GENEVE overlay network
       - you will see the GENEVE port on OVS switch
 
- 
 
 ## ovn-kubernetes
 
@@ -84,7 +83,6 @@
 - **kubeovn** : get pods, svc informatino from kubernetes
 - **ovnkube-node** : node-level bookkeeping and configuration
 - **ovnkube-master** : convert kubernetes objects in to nbdb logical network components
-
 - **ovs-node** : ovsdb and ovs-vswitchd
 
 ![image](https://cdn-ak.f.st-hatena.com/images/fotolife/o/orimanabu/20191220/20191220030340.png)
